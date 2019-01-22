@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/actions">
+        <file alias="save">index.jpeg</file>
+        <file alias="new">new.jpeg</file>
+        <file alias="open">open-file-icon.png</file>
+        <file alias="save_as">save_as.png</file>
+        <file alias="exit">exit_PNG43.png</file>
+        <file alias="new2">new2.ico</file>
+    </qresource>
+</RCC>

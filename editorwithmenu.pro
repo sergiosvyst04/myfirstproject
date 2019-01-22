@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-01-16T15:17:50
+# Project created by QtCreator 2019-01-21T18:20:34
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = catchButton
+TARGET = editorwithmenu
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,12 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        MainWindow.cpp \
-    MyButton.cpp
+        MainWindow.cpp
 
 HEADERS += \
-        MainWindow.hpp \
-    MyButton.hpp
+        MainWindow.hpp
 
 FORMS += \
         MainWindow.ui
+
+RESOURCES += \
+    resources.qrc
